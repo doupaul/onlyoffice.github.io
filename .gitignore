@@ -1,0 +1,15 @@
+# mac 相关
+.DS_Store
+
+# 默认排除 .idea 的其他文件
+.idea
+*.iml
+
+# 项目发布目录
+target
+
+# webpack
+# node 依赖，可以通过 package.json 很方便下回来的
+node_modules
+# webpack 输出目录
+dist
